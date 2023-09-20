@@ -1,0 +1,57 @@
+
+GLOBAL_STAT = si ; bit set
+; 10h != delete object  // bit 5
+; 20h =  // bit 6
+
+FRAME_PAUSE = si+02
+X_RESERVE   = si+03 ; 2 bytes
+X_RESERVE2  = si+04 ;
+Y_RESERVE   = si+05 ; 2 bytes
+Y_RESERVE2  = si+06 ;
+;? obj_num  = si+07 ; 2 bytes - weapon?
+;?          = si+09 ; 2 bytes - d'n
+X_COORD2    = si+0Bh
+X_COORD     = si+0Ch
+Y_COORD2    = si+0Dh
+Y_COORD     = si+0Eh
+OBJ_NUM     = si+0Fh
+FRAME_NUM   = si+10h
+OBJ_STATUS  = si+11h
+JUMP_CNT    = si+12h ; count pause on upper jump?
+DIRECTION   = si+13h
+STRENGHT_CNT = si+14h ; on chest?
+;           = si+15h ; curr frame?
+;?          = si+16h ; hang on change (ptr?)
+;?          = si+17h ; visual x?
+;?          = si+18h ; hang on change
+;?          = si+19h ;
+           ;= si+1Ah ;
+           ;= si+1Bh ;
+FRAME_DISP  = si+1Ch
+
+FRAME_SIZE  = si+1Eh
+
+BLOCK_STATUS = si+24h
+; block status (SI+24h)
+; 8 - on upper ?
+; 10 = left block
+; 20 = right block
+; 40 = up block
+; 80 = down block
+
+; death status bits:
+; 1 - quagmire (swamp)
+; 4 - drown	(bit 3 is set)
+; 10h - stunned (bit 5 is set)
+; 20h - eaten (bit 6 is set)
+
+FRAME_ADDR   = si+26h
+WX_COORD = di+0Ch
+WY_COORD = di+0Eh
+
+
+MAX_X_SPR = 28h ; 040
+MAX_Y_SPR = 14h ; 020
+
+GROUND_BIT = 40h
+FIRE_BIT = 4
