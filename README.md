@@ -16,7 +16,7 @@ The source tree separates game modules into distinct assembly (`.ASM`) and inclu
 
 ### Core Executable Components
 *   **`LSTONE.ASM` / `LSTONE2.asm` / `LSTONE3.asm`**: The main entry points, initialization routines, and primary gameplay loops.
-*   **`LMIN.ASM` / `LMINREC.ASM` / `LSTONREC.ASM`**: Recording and demo system management files.
+*   **`LMIN.ASM` / `LMINREC.ASM` / `LSTONREC.ASM`**: Recovered+commented and minimal demo system files.
 
 ### Hardware & I/O Subsystems
 *   **`KEYBOARD.INC`**: Low-level interrupt handlers (`INT 9h`) for responsive multi-key input.
