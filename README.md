@@ -15,8 +15,8 @@ Unlike the 8-bit Z80 versions (Amstrad CPC, ZX Spectrum, MSX), this repository f
 The source tree separates game modules into distinct assembly (`.ASM`) and include (`.INC`) files, decoupling system I/O from core engine logic:
 
 ### Core Executable Components
-*   **`LSTONE2.asm`**: The main original entry points, initialization routines, and core game loops.
-*   **`LSTONE.ASM` / `LMIN.ASM` / `LMINREC.ASM` / `LSTONREC.ASM`**: Recovered+commented and minimal demo system files.
+*   **`LSTONE.asm`**: The main original entry points, initialization routines, and core game loops.
+*   **`LS_WORK.ASM` / `LMIN.ASM` / `LMINREC.ASM` / `LSTONREC.ASM`**: Recovered+commented and minimal demo system files.
 
 ### Hardware & I/O Subsystems
 *   **`KEYBOARD.INC`**: Low-level interrupt handlers (`INT 9h`) for responsive multi-key input.

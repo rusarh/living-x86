@@ -1,6 +1,6 @@
 @echo Compile changed version
-@del tmp\lstone.obj > NUL
-@SOFT\lzasmx /c /z lstone tmp
-@SOFT\tlink /t /x /v tmp\lstone.obj
-@copy /y tmp\lstone.com bin\s.com
+@del tmp\ls_work.obj > NUL
+@SOFT\lzasmx /c /z ls_work tmp
+@SOFT\tlink /t /x /v tmp\ls_work.obj
+@copy /y tmp\ls_work.com bin\w.com
 

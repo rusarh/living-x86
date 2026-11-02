@@ -1,1 +1,1 @@
-@bin\s.com
+@bin\w.com
