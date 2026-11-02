@@ -15,8 +15,8 @@ Unlike the 8-bit Z80 versions (Amstrad CPC, ZX Spectrum, MSX), this repository f
 The source tree separates game modules into distinct assembly (`.ASM`) and include (`.INC`) files, decoupling system I/O from core engine logic:
 
 ### Core Executable Components
-*   **`LSTONE.ASM` / `LSTONE2.asm` / `LSTONE3.asm`**: The main entry points, initialization routines, and primary gameplay loops.
-*   **`LMIN.ASM` / `LMINREC.ASM` / `LSTONREC.ASM`**: Recovered+commented and minimal demo system files.
+*   **`LSTONE2.asm`**: The main original entry points, initialization routines, and core game loops.
+*   **`LSTONE.ASM` / `LMIN.ASM` / `LMINREC.ASM` / `LSTONREC.ASM`**: Recovered+commented and minimal demo system files.
 
 ### Hardware & I/O Subsystems
 *   **`KEYBOARD.INC`**: Low-level interrupt handlers (`INT 9h`) for responsive multi-key input.
@@ -42,9 +42,8 @@ To assemble the codebase into a playable binary, you will need a 16-bit Real Mod
 ### Automated Compilation Scripts
 Run the automated tools via your DOS command prompt:
 
-*   `m.bat` / `lm.bat`: Compiles individual modified modules.
-*   `master.bat`: Triggers a clean top-down build of all project source segments.
-*   `l.bat` / `o.bat`: Automated linking macros to cleanly output the final executable target.
+*   `demo.bat` / `work.bat`: Compiles individual modified modules.
+*   `original.bat`: Triggers a clean top-down build of all project source segments. Automated linking script to output the final executable target.
 
 ---
 

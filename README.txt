@@ -1,8 +1,9 @@
-LSTONE2.ASM - original decompiled
 
-LMIN.ASM - tiny version
+
+LMIN.ASM - minimal demo for testing physics
 LSTONE.ASM - dirty decompiled reveresed
-LSTONEREC.ASM - fully reversed
+LSTONE2.ASM - original decompiled
+LSTONEREC.ASM - analyzed and commented procedures
 
 LSTONE.INC - defines
 SOUNDDAT.INC - effects and music
