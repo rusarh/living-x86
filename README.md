@@ -36,7 +36,7 @@ The codebase includes specialized MS-DOS batch scripts to automate compiling, li
 
 ### Prerequisites
 To assemble the codebase into a playable binary, you will need a 16-bit Real Mode x86 assembler running within an MS-DOS environment (or via **DOSBox**):
-*   **MASM** (Microsoft Macro Assembler v5.0+) or **TASM** (Turbo Assembler).
+*   **LZASM** (x86 assembler created by Stepan Polovnikov for DOS and Win32) or **TASM** (Turbo Assembler).
 *   **LINK.EXE** (compatible 16-bit segment linker).
 
 ### Automated Compilation Scripts
